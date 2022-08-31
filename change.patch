@@ -1,0 +1,123 @@
+Index: src/Whatsapp/index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Whatsapp/index.js	(revision ee441bce10970ade8baab45eafeb2732292204f2)
++++ src/Whatsapp/index.js	(date 1615806383156)
+@@ -1223,10 +1223,10 @@
+                                     <Tabs defaultActiveKey="1" onChange={callback}>
+                                         <TabPane tab="about" key="1">
+                                             <div className="tagDiv">
+-                                                <h4 className="tagFont">
++                                                <h1 className="tagFont" style={{fontSize: "25px"}}>
+                                                     Whatsapp is one of the most admired andextensively used messaging
+                                                     apps.
+-                                                </h4>
++                                                </h1>
+                                                 <div className="tagFont">
+                                                     In this hi-tech generation, it is impractical to visualize a life
+                                                     without WhatsApp.
+@@ -1234,10 +1234,10 @@
+                                                     family, friends and even clientele.
+                                                     Now it’s time of Whatsapp direct chat whichallows individual to send
+                                                     Whatsapp message without adding contact number.
+-                                                </div>
+-                                                <h4 className="tagFont">
++                                                </div><br/>
++                                                <h2 className="tagFont" style={{fontSize: "20px"}}>
+                                                     The annoying part of WhatsApp:
+-                                                </h4>
++                                                </h2>
+                                                 <div className="tagFont">
+                                                     Whatsapp is one of the most admired andextensively used messaging
+                                                     apps. In this hi-tech generation,
+@@ -1256,10 +1256,10 @@
+                                                     status and DP
+                                                     but it also creates ruckus as youcannot save everyone’s contact and
+                                                     burden your phonewith a long list of users.
+-                                                </div>
+-                                                <h4 className="tagFont">
++                                                </div><br/>
++                                                <h2 className="tagFont" style={{fontSize: "20px"}}>
+                                                     Whatsdirect:
+-                                                </h4>
++                                                </h2>
+                                                 <div className="tagFont">
+                                                     To overcome the issue of connecting without saving thenumber of
+                                                     contacts we have come up with anunbelievable app Whatsdirect.
+@@ -1276,10 +1276,10 @@
+                                                     connect with your family and friends and withthe increasing
+                                                     e-commerce market it has a
+                                                     lso helpedbusinesses to connect with their customers.
+-                                                </div>
+-                                                <h4 className="tagFont">
++                                                </div><br/>
++                                                <h2 className="tagFont" style={{fontSize: "20px"}}>
+                                                     How to Find Whatsapp direct chat link?
+-                                                </h4>
++                                                </h2>
+                                                 <div className="tagFont">
+                                                     Create your own link with a pre-filled message. User willbe
+                                                     readdressing to the Whatsapp chat for that number,
+@@ -1290,20 +1290,20 @@
+                                                     iOS, windows and even
+                                                     blackberry. It allows you to share photos, videos andother
+                                                     information with your friends and family.
+-                                                </div>
+-                                                <h4 className="tagFont">
++                                                </div><br/>
++                                                <h2 className="tagFont" style={{fontSize: "20px"}}>
+                                                     How does Whatsapp direct work?
+-                                                </h4>
++                                                </h2>
+                                                 <div className="tagFont">
+                                                     Enter a number to which you want to send amessage OR you can also
+                                                     select numbers fromrecent calls.Type your text message and tap on
+                                                     the send button.This will navigate you to your favourite
+                                                     messenger,WhatsApp then a chat window will be created withthe given
+                                                     number.
+-                                                </div>
+-                                                <h4 className="tagFont">
++                                                </div><br/>
++                                                <h2 className="tagFont" style={{fontSize: "20px"}}>
+                                                     How to send Multimedia Messages by WhatsappDirect ?
+-                                                </h4>
++                                                </h2>
+                                                 <div className="tagFont">
+                                                     Enter a number or select from recent call logs towhich you wish to
+                                                     send a message.Tap on 'Send Media'.You will be directed to your
+@@ -1312,7 +1312,7 @@
+                                                     will not be able to connect with thatperson.To know more, check out
+                                                     our Whtsappdirect tool.
+                                                 </div>
+-                                            </div>
++                                            </div><br/>
+                                         </TabPane>
+                                         <TabPane tab="privacy" key="2">
+                                             <div className="tagDiv">
+@@ -1331,7 +1331,7 @@
+                         <div className="site-card-border-less-wrapper add2">
+                             {/*<Card title="Card title" >*/}
+                             {/*</Card>*/}
+-                            <div id="div-gpt-ad-1612775480075-0 text-center" style={{textAlign: "center", marginBottom: "10px", position: 'sticky', marginTop:"10px", top: '10px'}}>
++                            <div id="div-gpt-ad-1612775480075-0 text-center" style={{textAlign: "center", marginBottom: "10px", position: 'sticky', top: '10px'}}>
+                                 <GPT adUnitPath={path}
+                                     sizeMapping={sloat}
+                                 />
+Index: src/App.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/App.css	(revision ee441bce10970ade8baab45eafeb2732292204f2)
++++ src/App.css	(date 1615805543646)
+@@ -120,7 +120,7 @@
+ .ant-popover-inner{
+   width:100%;
+  }
+-
++add1
+ @media only screen and (max-width: 752px){
+   .pad{
+     padding-left: 15px;

@@ -1,0 +1,66 @@
+{
+  "name": "whatsapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.4.0",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@react-firebase/auth": "^0.2.10",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.0",
+    "antd": "^4.10.3",
+    "bootstrap": "^4.6.0",
+    "build": "^0.1.4",
+    "fa-icons": "^0.2.0",
+    "firebase": "^8.2.4",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "query-string": "latest",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.1",
+    "react-ga": "^3.3.0",
+    "react-gpt": "^2.0.1",
+    "react-gtm-module": "^2.0.11",
+    "react-phone-input-2": "^2.13.9",
+    "react-router-dom": "^5.2.0",
+    "react-rte": "^0.16.3",
+    "react-scripts": "^4.0.1",
+    "react-spinkit": "^3.0.0",
+    "react-tagsinput": "^3.19.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "set PORT=8000 && react-scripts start",
+    "build": "react-scripts build",
+    "deploy1": "scp -r ./build/* root@207.180.225.238:/www/wwwroot/whatsdirectchat.com",
+    "deploy2": "scp -r ./build/* root@207.180.225.238:/www/wwwroot/whatsappdirectchat.com",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "reactstrap": "^8.9.0"
+  }
+}
